@@ -31,7 +31,7 @@ function Candidate() {
 
   useEffect(() => {
     dispatch(getApi());
-    fetchData();
+    // fetchData();
   }, [currentPage, genderFilter, experienceFilter, dispatch]);
 
   const fetchData = async () => {
